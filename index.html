@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Sobcontrolle</title>
+        <meta name="description" content="A gente sabe que nem sempre você tem tempo para divulgar seu trabalho. Por isso, o objetivo da Sob Controlle é que você foque o seu tempo, no que realmente importa.">
+
+        <link rel="icon" href="./src/img/logo.svg" type="imagem/svg+xml">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="./src/css/style.css">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <!--JS-->
+    </head>
+    <body id="index">
+        <header class="header-bg">
+            <div class="header container">
+                <a href="./index.html">
+                    <img src="./src/img/logo.svg">
+                </a>
+                <nav aria-label="primaria">
+                    <ul class="header-menu">
+                        <li><a href="./serviços.html">Serviços</a></li>
+                        <li><a href="./portfolio.html">Portfólio</a></li>
+                        <li><a href="./planos.html">Planos</a></li>
+                        <li><a href="./contato.html">Contato</a></li>
+        
+                    </ul>
+                </nav>
+            </div>       
+        </header>
+            <main class="introducao-bg">
+                <div class="introducao container">
+                    <div class="introducao-conteudo">
+                        <h1 class="texto-principal fadeInDown" data-anime="200">PARE, PENSE E FAÇA</h1>
+                        <a href="#servicos" class="texto-descricao fadeInDown"data-anime="1000"><b>COMEÇE AGORA</b></a> 
+                    </div>
+                    <div class="imagem-conteudo fadeInDown" data-anime="800">
+                        <img src="./src/img/fotos/as.svg">
+                    </div>
+                </div>
+            </main>
+            <article id="servicos" class="servicos-lista">
+                <h2 class="texto-principal container">Nossos <span class="ponto">Serviços</span></h2>
+                <ul>
+                    <li class="img-1">
+                        <a href="./src/servicos/desing.html">
+                            <img src="./src/img/servicos/img-1.jpg">
+                            <h3 class="texto-3">Desing Grafico</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./src/servicos/social-midia.html">
+                            <img src="./src/img/servicos/img-2.jpg">
+                            <h3 class="texto-3">Social Media</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./src/servicos/trafego-pago.html">
+                            <img src="./src/img/servicos/img-3.jpg">
+                            <h3 class="texto-3">Tráfego Pago</h3>
+                        </a>
+                    </li>
+                </ul>
+            </article>
+            <article class="tecnologia-bg">
+                <div class="tecnologia container">
+                    <div class="tecnologia-img">
+                        <img src="./src/img/fotos/cell2.svg">
+                    </div>
+                    <div class="tecnologia-conteudo">
+                        <h2 class="texto-5">Sem <span class="ponto">Tempo</span>?</h2>
+                        <p class="texto-6">A gente sabe que nem sempre você tem <b>tempo</b> para <b>divulgar</b> seu trabalho.
+                            Por isso, o objetivo da <b>Sob Controlle</b> é que você foque o seu tempo, no que realmente <b>importa.</b></p>
+                        <a class="botao" href="#">Contrate já</a>
+                        
+                    </div>
+                </div>
+            </article>
+            <article class="portfolio-bg">
+                <div class=" portfolio">
+                    <h2 class="texto-principal container"><span class="ponto">Trabalhos</span> Realizados</h2>
+                    <div class="slider">
+                        <div class="slides">
+                            <!--Radio-->
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <!--Fim-Radio-->
+                                <div class="slide first">
+                                    <img src="./src/img/port/1.jpg">
+                                </div>
+                                <div class="slide">
+                                    <img src="./src/img/port/2.jpg">
+                                </div>
+                                <div class="slide">
+                                    <img src="./src/img/port/3.jpg">
+                                </div>
+                                <div class="navegacao-auto">
+                                    <div class="auto-btn1"></div>
+                                    <div class="auto-btn2"></div>
+                                    <div class="auto-btn3"></div> 
+                                </div> 
+                        </div>
+                         <div class="navegacao-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                         </div>
+                    </div>
+                    <div class="btnss">
+                        <a class="botao" href="./portfolio.html">Veja Mais</a>  
+                    </div>
+                                   
+                </div>
+            </article>
+            <article class="planos-bg">
+                <div class="planos container">
+                    <h2 class="texto-principal">Planos</h2>
+                    <div class="conteudos">
+                        <div class="plano-item">
+                            <h3 class="texto-7 ponto">Ouro</h3>
+                            <span class="texto-7">R$100<span class="texto-6">mensal</span></span>
+                            <ul class="texto-6">
+                                <li>Criação de marca</li>
+                                <li>Suporte 08h ás 18h</li>
+                                <li>Manutenção</li>
+                                <li>Agiotagem</li>
+                                <li>Clone de Cartão</li>
+                                <li>Games</li>   
+                            </ul>
+                            <a class="botao secundario">inscreva-se</a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        <footer class="footer-bg">
+            <div class="footer container">
+                <a href="./index.html"><img src="./src/img/logo.svg" alt="marca"></a>
+                <div class="contato">
+                    <h3 class="texto-7">Contato</h3>
+                    <ul>
+                        <li class="texto-6"><a href="tel:+551199999999">+55 11 9999-9999</a></li>
+                        <li class="texto-6"><a href="mailto:email@gmail.com">email@gmail.com</a></li>
+                    </ul>
+                    <div class="redes">
+                        <a href="#">
+                            <img src="./src/img/redes/facebook.svg">
+                        </a>
+                        <a href="#">
+                            <img src="./src/img/redes/instagram.svg">
+                        </a>
+                        <a href="#">
+                            <img src="./src/img/redes/youtube.svg">
+                        </a>
+                    </div>
+                </div>
+                <p class="texto-6 footer-copy">Alguns Direitos Reservados</p>
+            </div>
+        </footer>
+    <script src="./src/js/simple-anime.js"></script>;
+    <script src="./src/js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,212 @@
+.portfolio-pag{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+.port-conteudo{
+    width: 60%;
+    padding: 10px 100px 40px 60px;
+    margin-left: 40px;
+}
+.port-bg{
+    background-color: #111;
+    color: aliceblue;
+    padding: 5px;
+}
+
+input[type=radio]{
+    display: none;
+}
+
+
+.port-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.container-slider{
+    width: 200%;
+    height:700%;
+    max-width: 600px;
+    max-height:600px ;
+    display: flex;
+    transform-style: preserve-3d;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-1,
+#item-3:checked ~ .cards #song-2{
+    transform: translateX(-50%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2,
+#item-2:checked ~ .cards #song-3,
+#item-3:checked ~ .cards #song-1{
+    transform: translateX(50%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1,
+#item-2:checked ~ .cards #song-2,
+#item-3:checked ~ .cards #song-3{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#item-1:checked ~ .cards #song-1 img,
+#item-2:checked ~ .cards #song-2 img,
+#item-3:checked ~ .cards #song-3 img{
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81,0.47);
+
+
+}
+
+#item-11:checked ~ .cards #song-33,
+#item-22:checked ~ .cards #song-11,
+#item-33:checked ~ .cards #song-22{
+    transform: translateX(-50%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-11:checked ~ .cards #song-22,
+#item-22:checked ~ .cards #song-33,
+#item-33:checked ~ .cards #song-11{
+    transform: translateX(50%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-11:checked ~ .cards #song-11,
+#item-22:checked ~ .cards #song-22,
+#item-33:checked ~ .cards #song-33{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#item-11:checked ~ .cards #song-11 img,
+#item-22:checked ~ .cards #song-22 img,
+#item-33:checked ~ .cards #song-33 img{
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81,0.47);
+
+
+}
+
+#item-111:checked ~ .cards #song-333,
+#item-222:checked ~ .cards #song-111,
+#item-333:checked ~ .cards #song-222{
+    transform: translateX(-50%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-111:checked ~ .cards #song-222,
+#item-222:checked ~ .cards #song-333,
+#item-333:checked ~ .cards #song-111{
+    transform: translateX(50%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-111:checked ~ .cards #song-111,
+#item-222:checked ~ .cards #song-222,
+#item-333:checked ~ .cards #song-333{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+#item-111:checked ~ .cards #song-111 img,
+#item-222:checked ~ .cards #song-222 img,
+#item-333:checked ~ .cards #song-333 img{
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81,0.47);
+
+
+}
+
+@media (max-width: 1300px){
+    .portfolio-pag{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 450px;
+    }
+    .port-conteudo{
+        width: 100%;
+        padding: 10px;
+        margin-left: 0px;
+        text-align: center;
+        grid: 1;
+    }
+
+    .port-conteudo p{
+        display: none;
+    }
+
+    .h2m{
+        margin-top: -80px;
+    }
+    .port-img{
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+
+    .port-img img{
+        height: 400%;
+        grid: 2;
+    }
+    
+    .container-slider{
+        width: 100%;
+        height:900%;  
+    }
+}
+
+@media (max-width: 800px){
+
+    .port-img{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+
+}
+
+@media (max-width: 650px){
+    .port-img{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}

@@ -1,0 +1,84 @@
+.texto-principal{
+    font: 700 3rem "Open Sans", sans-serif;
+}
+
+.texto-descricao{
+    font: 300 1.5rem "Open Sans", sans-serif;
+}
+
+.texto-3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    line-height:2.25rem ;
+
+}
+
+.texto-4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height:1.5rem;
+
+}
+
+.texto-5{
+    font: 700 3rem "Open Sans", sans-serif;
+    line-height:4rem;
+    color: #fff;
+}
+
+.texto-6{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.texto-7{
+    font-family: "Open Sans", sans-serif;
+    font-size: 2.25rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
+.texto-8{
+    font: 600 4rem/1.125 'Open Sans', sans-serif;
+   
+    
+}
+
+.texto-9{
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.font-2-s {
+    font: 400 1rem/1.5 "Open Sans", sans-serif;
+}
+
+.font-2-l,
+.font-2-l-b {
+  font: 400 1.5rem/1.5 "Open Sans", sans-serif;
+}
+
+.font-1-l {
+    font: 600 1.5rem/1.5 "Open Sans", sans-serif;
+}
+
+.font-1-m-b {
+    font-weight: 600;
+  }
+
+  .font-1-m,
+  .font-1-m-b {
+    font: 500 1.125rem/1.35 "Open Sans", sans-serif;
+  }
+
+  .font-2-xs {
+    font: 400 0.875rem/1.43 "Open Sans", sans-serif;
+  }
+
+.ponto{
+    color: #18aeff;
+}

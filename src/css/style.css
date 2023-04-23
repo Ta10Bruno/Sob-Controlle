@@ -1,0 +1,32 @@
+@import './geral/global.css';
+/*Uitilidade*/
+@import './utilidades/tipografia.css';
+@import './utilidades/componentes.css';
+@import './utilidades/fomulario.css';
+@import './utilidades/simple-anime.css';
+
+/*Pagina Inicial*/
+@import './geral/header.css';
+@import './geral/introducao.css';
+@import './geral/servicos.css';
+@import './geral/tenoclogia.css';
+@import './geral/portfolio.css';
+@import './geral/planos.css';
+@import './geral/footer.css';
+
+/*Termos*/
+@import './paginas/termos.css';
+
+/*Serviços*/
+@import './paginas/servicos.css';
+@import './paginas/servicos/servicos.css';
+@import './paginas/servicos/planoS.css';
+
+/*Planos*/
+@import './paginas/planos.css';
+
+/*Porfólio*/
+@import './paginas/portfolio.css';
+
+/*Contato*/
+@import './paginas/contato.css'

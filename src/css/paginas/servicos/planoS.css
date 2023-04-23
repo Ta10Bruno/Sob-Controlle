@@ -1,0 +1,52 @@
+.planoI-bg{
+    background-color: #111111;
+    box-shadow: inset 0 120px #fff;  
+}
+
+.text{
+    color: #fff;
+}
+.planoI p{
+    color: #b2b2b2;
+    font-size: 1.125rem;
+}
+.planoI{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.planoI-imagem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.planoI-conteudo{
+    padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.planoI h2 {
+    margin-bottom: 32px;
+  }
+  
+  .planoI p {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .planoI-bg {
+      box-shadow: inset 0 -60px var(--cor-12);
+    }
+    .planoI {
+      grid-template-columns: 1fr;
+    }
+    .planoI-conteudo {
+      grid-row: 1;
+      padding-top: 40px;
+      padding-bottom: 0px;
+      background: none;
+    }
+  }
+  
